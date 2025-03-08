@@ -3,7 +3,7 @@ import CreateProject from "../UI COMPONENTS/LoginPage";
 import Signup from "../UI COMPONENTS/SignupPage";
 import PaymentForm from "../UI COMPONENTS/PaymentPage";
 import TiltedCard from "../blocks/Components/TiltedCard/TiltedCard";
-import myimage from '../WhatsApp Image 2025-03-08 at 18.35.21_f514fb17.jpg'
+
 import ShowCase2 from "./ShowCase2";
 function ShowCase() {
   return (
