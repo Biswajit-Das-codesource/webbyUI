@@ -7,6 +7,8 @@ import PaymentForm from "./UI COMPONENTS/PaymentPage";
 import Page1 from "./components/Page1";
 import ShowCase from "./components/ShowCase";
 import ShowCase2 from "./components/ShowCase2";
+import Thread from "./components/Thread";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Page1 />
       <ShowCase/>
       <ShowCase2/>
+      <Thread/>
+      <Footer/>
     </div>
   );
 }

@@ -19,7 +19,6 @@ function ShowCase() {
       <div className="bg-black w-full md:flex justify-center min-h pt-3 md:block hidden">
         <TiltedCard
           imageSrc={"https://media.wired.com/photos/668d534f791d9d44f6741af9/master/pass/Nike-Adapt-BB-Discontinued.jpg"}
-            
           containerHeight="300px"
           containerWidth="400px"
           imageHeight="300px"

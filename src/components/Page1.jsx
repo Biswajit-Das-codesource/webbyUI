@@ -5,9 +5,10 @@ import CreateProject from "../UI COMPONENTS/LoginPage";
 export default function Page1() {
   return (
     <>
-      <section className="relative w-full min-h flex flex-wrap gap-4 items-start pt-20 justify-center bg-black text-white px-4">
+       <h1 className="text-white text-4xl bg-black text-center pt-10 font-bold">Buildin Components</h1>
+      <section className="relative w-full min-h flex flex-wrap gap-4 items-start pt-6 justify-center bg-black text-white px-4">
         {/* Navbar / Header */}
-
+     
         {/* Product Card */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
