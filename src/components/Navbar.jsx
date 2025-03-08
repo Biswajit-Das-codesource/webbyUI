@@ -47,10 +47,7 @@ export default function Navbar() {
         <IoGameControllerOutline className="text-xl cursor-pointer dark:text-white" />
         <FaGithub className="text-xl cursor-pointer dark:text-white" />
         <RxCross2 className="text-xl cursor-pointer dark:text-white" />
-        <BsSun
-          className="text-xl cursor-pointer dark:text-white"
-          onClick={() => setDarkMode(!darkMode)}
-        />
+       
       </div>
     </nav>
   );

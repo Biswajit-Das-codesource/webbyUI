@@ -3,7 +3,7 @@ import React from "react";
 const PaymentForm = () => {
   return (
     <div className="flex justify-center items-center  bg-black">
-      <div className="bg-black p-6 rounded-lg shadow-md border w-96 border-white">
+      <div className="bg-black p-10 rounded-lg shadow-md border md:w-96 border-white">
         {/* Title */}
         <h2 className="text-white text-lg font-semibold">Payment Details</h2>
         <p className="text-gray-400 text-sm mb-4">
