@@ -8,7 +8,7 @@ import ShowCase2 from "./ShowCase2";
 function ShowCase() {
   return (
     <>
-      <div className="flex md:w-full gap-10 bg-black justify-center md:gap-4 flex-wrap p-6 ">
+      <div className="flex md:w-full gap-10 bg-black justify-center md:gap-4 flex-wrap p-6 px-10">
         <CreateProject />
         <Signup />
         <PaymentForm />
