@@ -4,6 +4,7 @@ import SplashCursor from "../blocks/Animations/SplashCursor/SplashCursor";
 import TrueFocus from "../blocks/TextAnimations/TrueFocus/TrueFocus";
 import GradientText from "../blocks/TextAnimations/GradientText/GradientText";
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 export default function HeroSection() {
   const items = [
@@ -67,7 +68,7 @@ export default function HeroSection() {
       {/* Buttons */}
       <div className="mt-12 flex space-x-4 ">
         <button className="bg-white text-black px-4 py-3 rounded-3xl cursor-pointer text-base flex items-center space-x-2 shadow-lg font-medium">
-          <span>Browse Components</span>
+         <Link to="/components"> <span>Browse Components</span> </Link>
           <FaArrowRight />
         </button>
       </div>

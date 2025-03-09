@@ -1,1 +1,4 @@
 @import "tailwindcss";
+pre, code {
+    background-color: #000 !important;
+  }

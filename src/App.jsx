@@ -20,6 +20,7 @@ function App() {
       <ShowCase2/>
       <Thread/>
       <Footer/>
+      
     </div>
   );
 }

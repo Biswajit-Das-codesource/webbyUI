@@ -36,13 +36,11 @@ export default function Navbar() {
 
       {/* Right Section */}
       <div className="flex items-center space-x-4">
-        <button className="flex items-center bg-black text-white px-4 py-2 rounded-full text-sm">
-          <FaGithub className="mr-2" /> Star on GitHub <span className="ml-2">15,034</span>
-        </button>
+       
         <input
           type="text"
           placeholder="Search documentation..."
-          className="hidden lg:block bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-md focus:outline-none"
+          className="hidden lg:block bg-gray-100 dark:bg-gray-300 px-4 py-2 rounded-md focus:outline-none"
         />
         <IoGameControllerOutline className="text-xl cursor-pointer dark:text-white" />
         <FaGithub className="text-xl cursor-pointer dark:text-white" />
