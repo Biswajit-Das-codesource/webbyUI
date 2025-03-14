@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { BsSun } from "react-icons/bs";
 import { IoGameControllerOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router";
 
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,9 +20,11 @@ export default function Navbar() {
          
         </div>
         <ul className="hidden md:flex space-x-6 text-gray-700 dark:text-gray-300">
+          <Link to="/components/accordion">
           <li className="hover:text-black dark:hover:text-white cursor-pointer">
             Components
           </li>
+          </Link>
           <li className="hover:text-black dark:hover:text-white cursor-pointer flex items-center">
             Templates
             <span className="ml-2 bg-orange-500 text-white text-xs px-2 py-0.5 rounded-md">
@@ -36,7 +39,7 @@ export default function Navbar() {
 
       {/* Right Section */}
       <div className="flex items-center space-x-4">
-       
+{/*        
         <input
           type="text"
           placeholder="Search documentation..."
@@ -45,7 +48,7 @@ export default function Navbar() {
         <IoGameControllerOutline className="text-xl cursor-pointer dark:text-white" />
         <FaGithub className="text-xl cursor-pointer dark:text-white" />
         <RxCross2 className="text-xl cursor-pointer dark:text-white" />
-       
+        */}
       </div>
     </nav>
   );

@@ -11,6 +11,8 @@ import PaymentForm from './UI COMPONENTS/PaymentPage.jsx'
 import InfiniteScrollText from './UI COMPONENTS/Infinitetext.jsx'
 import AvatarComponent from './UI COMPONENTS/Avatar.jsx'
 import ButtonShowcase from './UI COMPONENTS/button.jsx'
+import DropdownShowcase from './UI COMPONENTS/Dropdown.jsx'
+import AnimatedText from './UI COMPONENTS/AnimatedText.jsx'
 
 
 const router=createBrowserRouter([
@@ -45,7 +47,17 @@ const router=createBrowserRouter([
       {
         path:"/components/button",
         element:<ButtonShowcase/>
+      },
+      {
+        path:"/components/dropdown-menu",
+        element:<DropdownShowcase/>
+      },
+      {
+        path:"/components/animated-text",
+        element:<AnimatedText/>
       }
+     
+     
       
     ]
   }

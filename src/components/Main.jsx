@@ -34,7 +34,7 @@ export default function HeroSection() {
     <section className="relative w-full min-h-screen flex flex-col items-center bg-gray-950 text-white text-center px-4">
       {/* Top Badge */}
       <div className="bg-gray-800 text-gray-300 text-sm px-4 py-1 rounded-full flex items-center space-x-2 mb-4 mt-18">
-        <span>🚀 Introducing Query AI</span>
+        <span>🚀 Introducing  WebbyUI</span>
         <FaArrowRight className="text-xs" />
       </div>
 
@@ -68,7 +68,7 @@ export default function HeroSection() {
       {/* Buttons */}
       <div className="mt-12 flex space-x-4 ">
         <button className="bg-white text-black px-4 py-3 rounded-3xl cursor-pointer text-base flex items-center space-x-2 shadow-lg font-medium">
-         <Link to="/components"> <span>Browse Components</span> </Link>
+         <Link to="/components/accordion"> <span>Browse Components</span> </Link>
           <FaArrowRight />
         </button>
       </div>

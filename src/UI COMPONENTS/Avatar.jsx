@@ -19,6 +19,7 @@ const AvatarComponent = () => {
     setTimeout(() => setCopied(false), 2000);
   };
 
+
   return (
     <div className="bg-black min-h-screen flex flex-col items-center p-8">
       {/* Avatar UI */}
